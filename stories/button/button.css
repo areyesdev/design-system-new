@@ -1,0 +1,49 @@
+@import '../common/variables.css';
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-blue);
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 32px;
+  transition: all 0.2s;
+}
+.button--large {
+  padding: 16px 32px;
+}
+.button--small {
+  padding: 8px 16px;
+}
+
+.button--primary {
+  background: var(--primary-blue-darling);
+}
+.button--primary:hover {
+  background: var(--hover-blue-darling);
+}
+.button--secondary{
+  color: var(--primary-white);
+  background: var(--primary-blue);
+}
+.button--secondary:hover {
+  background: var(--hover-blue);
+}
+
+.button--tertiary{
+  color: var(--primary-blue);
+}
+.button--tertiary:hover {
+  background: var(--hover-white);
+}
+.button--inverted {
+  color: var(--primary-blue);
+  background: transparent;
+  border-color: var(--primary-blue);
+}
+.button--inverted:hover {
+  color: var(--primary-blue);
+  border-color: var(--primary-blue);
+}
